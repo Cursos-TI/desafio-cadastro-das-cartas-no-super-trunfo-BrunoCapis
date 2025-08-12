@@ -19,7 +19,7 @@ printf ("Registro de Cartas Super Trunfo\n");
 
 printf ("Digite os dados da carta 1:\n");
 printf ("Digite o estado do estado da carta (A a H): ");
-scanf ("%c", &estado1);
+scanf (" %c", &estado1);
 
 printf ("Digite o código da carta ( Código do estado + nº de 01 a 09): \n");
 scanf ("%s",codigo1);
@@ -47,7 +47,7 @@ printf("\n====================================================\n");
 getchar(); // Limpa o buffer do teclado
 printf ("Digite os dados da carta 2:\n");
 printf ("Digite o estado do estado da carta (A a H): ");
-scanf ("%c", &estado2);
+scanf (" %c", &estado2);
 
 printf ("Digite o código da carta ( Código do estado + nº de 01 a 09): \n");
 scanf ("%s",codigo2);
@@ -73,7 +73,7 @@ printf("\n====================================================\n");
 
 //Exibição dos dados das cartas
 
-printf("\nDados da Carta 1:\n");
+printf("\nCarta 1:\n");
 printf("Estado: %c\n", estado1);
 printf("Código: %s\n", codigo1);
 printf("Cidade: %s\n", cidade1);
@@ -83,7 +83,7 @@ printf("PIB: %.2f milhões de R$\n", PIB1);
 printf("Pontos turísticos: %d\n", pontosturisticos1);
 
 
-printf("\nDados da Carta 2:\n");
+printf("\nCarta 2:\n");
 printf("Estado: %c\n", estado2);
 printf("Código: %s\n", codigo2);
 printf("Cidade: %s\n", cidade2);
