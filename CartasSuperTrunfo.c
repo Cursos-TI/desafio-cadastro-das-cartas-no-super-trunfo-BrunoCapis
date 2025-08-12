@@ -23,7 +23,7 @@ scanf ("%c", &estado1);
 
 printf ("Digite o código da carta ( Código do estado + nº de 01 a 09): \n");
 scanf ("%s",codigo1);
-getchar(); // Limpa o buffer do teclado
+
 
 printf ("Digite o nome da cidade: \n");
 scanf ("%s", cidade1);
