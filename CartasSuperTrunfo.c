@@ -44,14 +44,14 @@ printf("\n====================================================\n");
 
 
 //Registro da segunda carta
-getchar(); // Limpa o buffer do teclado
+
 printf ("Digite os dados da carta 2:\n");
 printf ("Digite o estado do estado da carta (A a H): ");
 scanf (" %c", &estado2);
 
 printf ("Digite o código da carta ( Código do estado + nº de 01 a 09): \n");
 scanf ("%s",codigo2);
-getchar(); // Limpa o buffer do teclado
+
 
 printf ("Digite o nome da cidade: \n");
 scanf ("%s", cidade2);
