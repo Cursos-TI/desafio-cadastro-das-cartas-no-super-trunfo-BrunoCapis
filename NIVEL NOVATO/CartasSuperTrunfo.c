@@ -98,6 +98,6 @@ printf("Pontos turísticos: %d\n", pontosturisticos2);
 
 
 
-
+return 0;
 
 }
