@@ -72,8 +72,8 @@ printf ("Digite o número de pontos turísticos da cidade: \n");
 scanf ("%d", &pontosturisticos2);  
 
 // Cálculo do PIB per capita
-PIBpercapita1 = PIB1 *  populacao1; // Cálculo do PIB per capita da carta 1
-PIBpercapita2 = PIB2 *  populacao2; // Cálculo do PIB per capita da carta 2
+PIBpercapita1 = PIB1 /  populacao1; // Cálculo do PIB per capita da carta 1
+PIBpercapita2 = PIB2 /  populacao2; // Cálculo do PIB per capita da carta 2
 
 // Cálculo da densidade populacional
 densidade1= populacao1 / area1; // Cálculo da densidade populacional da carta 1
