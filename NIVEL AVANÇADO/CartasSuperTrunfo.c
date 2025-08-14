@@ -32,7 +32,7 @@ printf ("Digite o nome da cidade: \n");
 scanf ("%s", cidade1);
 
 printf ("Digite a população da cidade: \n");
-scanf ("%ld", &populacao1);
+scanf ("%lu", &populacao1);
 
 printf ("Digite a área da cidade (em km²): \n");
 scanf ("%f", &area1);
@@ -61,7 +61,7 @@ printf ("Digite o nome da cidade: \n");
 scanf ("%s", cidade2);
 
 printf ("Digite a população da cidade: \n");
-scanf ("%ld", &populacao2);
+scanf ("%lu", &populacao2);
 
 printf ("Digite a área da cidade (em km²): \n");
 scanf ("%f", &area2);
@@ -100,7 +100,7 @@ printf("\nCarta 1:\n");
 printf("Estado: %c\n", estado1);
 printf("Código: %s\n", codigo1);
 printf("Cidade: %s\n", cidade1);
-printf("População: %ld\n", populacao1);
+printf("População: %lu\n", populacao1);
 printf("Área: %.2f km²\n", area1);
 printf("PIB: %.2f milhões de R$\n", PIB1);
 printf("Pontos turísticos: %d\n", pontosturisticos1);
@@ -114,7 +114,7 @@ printf("\nCarta 2:\n");
 printf("Estado: %c\n", estado2);
 printf("Código: %s\n", codigo2);
 printf("Cidade: %s\n", cidade2);
-printf("População: %ld\n", populacao2);
+printf("População: %lu\n", populacao2);
 printf("Área: %.2f km²\n", area2);
 printf("PIB: %.2f milhões de R$\n", PIB2);
 printf("Pontos turísticos: %d\n", pontosturisticos2);
@@ -132,7 +132,7 @@ printf("\nComparando as cartas...\n");
 printf("Se 1 for carta 1 vencer, 0 para carta 2 vencer.\n");
 
 
-printf("Ganhador população: %ld\n", populacao1 > populacao2);
+printf("Ganhador população: %lu\n", populacao1 > populacao2);
 printf("Ganhador area: %d\n", area1 > area2);
 printf("Ganhador PIB: %d\n", PIB1 > PIB2);
 printf("Ganhador pontos turísticos: %d\n", pontosturisticos1 > pontosturisticos2);
