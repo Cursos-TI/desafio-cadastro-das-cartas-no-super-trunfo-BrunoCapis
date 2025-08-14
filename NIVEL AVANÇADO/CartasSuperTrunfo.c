@@ -82,10 +82,10 @@ densidade2= populacao2 / area2; // Cálculo da densidade populacional da carta 2
 
 
 // Superpoder da carta 1
-float Superpoder1 = area1 + PIB1 + (float) pontosturisticos1 +  1 / densidade1 + PIBpercapita1; 
+float Superpoder1 = area1 + populacao1 + PIB1 + (float) pontosturisticos1 +  1 / densidade1 + PIBpercapita1; 
 printf ("Superpoder da carta 1: %.2f\n", Superpoder1);
 // Superpoder da carta 2
-float Superpoder2 = area2 + PIB2 + (float) pontosturisticos2 + 1 / densidade2 + PIBpercapita2; 
+float Superpoder2 = area2 + populacao2 + PIB2 + (float) pontosturisticos2 + 1 / densidade2 + PIBpercapita2; 
 printf ("Superpoder da carta 2: %.2f\n", Superpoder2);
 
 
