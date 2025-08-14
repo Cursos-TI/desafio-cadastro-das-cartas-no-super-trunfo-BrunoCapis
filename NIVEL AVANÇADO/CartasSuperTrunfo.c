@@ -129,6 +129,7 @@ printf("Cartas registradas com sucesso!\n");
 
 // Comparação de dados
 printf("\nComparando as cartas...\n");
+printf("Se 1 for carta 1 vencer, 0 para carta 2 vencer.\n");
 
 printf("Ganhador area: %d\n", area1 > area2);
 printf("Ganhador PIB: %d\n", PIB1 > PIB2);
