@@ -43,6 +43,7 @@ scanf ("%f", &PIB1);
 printf ("Digite o número de pontos turísticos da cidade: \n");
 scanf ("%d", &pontosturisticos1);
 
+
 printf("\n====================================================\n");
 
 
@@ -80,6 +81,17 @@ densidade1= populacao1 / area1; // Cálculo da densidade populacional da carta 1
 densidade2= populacao2 / area2; // Cálculo da densidade populacional da carta 2
 
 
+// Superpoder da carta 1
+float Superpoder1 = area1 + PIB1 + (float) pontosturisticos1 +  1 / densidade1 + PIBpercapita1; 
+printf ("Superpoder da carta 1: %.2f\n", Superpoder1);
+// Superpoder da carta 2
+float Superpoder2 = area2 + PIB2 + (float) pontosturisticos2 + 1 / densidade2 + PIBpercapita2; 
+printf ("Superpoder da carta 2: %.2f\n", Superpoder2);
+
+
+
+
+
 printf("\n====================================================\n");
 
 //Exibição dos dados das cartas
@@ -93,8 +105,8 @@ printf("Área: %.2f km²\n", area1);
 printf("PIB: %.2f milhões de R$\n", PIB1);
 printf("Pontos turísticos: %d\n", pontosturisticos1);
 printf("Densidade populacional: %.2f hab/km²\n", densidade1);
-printf("PIB per capita: %.f R$\n", PIBpercapita1);
-
+printf("PIB per capita: %.2f R$\n", PIBpercapita1);
+printf("Superpoder: %.2f\n", Superpoder1);
 printf("\n====================================================\n");
 
 
@@ -107,9 +119,24 @@ printf("Área: %.2f km²\n", area2);
 printf("PIB: %.2f milhões de R$\n", PIB2);
 printf("Pontos turísticos: %d\n", pontosturisticos2);
 printf("Densidade populacional: %.2f hab/km²\n", densidade2);
-printf("PIB per capita: %.f R$\n", PIBpercapita2);
+printf("PIB per capita: %.2f R$\n", PIBpercapita2);
+printf("Superpoder: %.2f\n", Superpoder2);
+
 
 printf("\n====================================================\n");
+
+printf("Cartas registradas com sucesso!\n");
+
+// Comparação de dados
+printf("\nComparando as cartas...\n");
+
+printf("Ganhador area: %d\n", area1 > area2);
+printf("Ganhador PIB: %d\n", PIB1 > PIB2);
+printf("Ganhador pontos turísticos: %d\n", pontosturisticos1 > pontosturisticos2);
+printf("Ganhador densidade populacional: %d\n", densidade1 < densidade2);
+printf("Ganhador PIB per capita: %d\n", PIBpercapita1 > PIBpercapita2);
+printf("Ganhador superpoder: %d\n", Superpoder1 > Superpoder2);
+
 
 return 0;
 
